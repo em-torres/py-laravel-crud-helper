@@ -1,0 +1,11 @@
+{
+    "formulario":
+    [    
+        {
+            "label": "Especialidad", 
+            "variable": "especialidad", 
+            "tipo": "text"
+        }
+    ],
+    "tipo": "editar" 
+}
