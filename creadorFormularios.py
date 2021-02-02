@@ -13,7 +13,7 @@ crearArchivo.crear('__ComponenteEjemplo.php', claseEjemplo)
 
 """ tipos de input
 text = texto
-nuber = numero
+number = numero
 textarea = cuadro de texto
 select = seleccionm multiple
 """

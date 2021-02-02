@@ -2,10 +2,100 @@
     "formulario":
     [    
         {
-            "label": "Especialidad", 
-            "variable": "especialidad", 
+            "label": "Usuario ID", 
+            "variable": "usuario_id", 
             "tipo": "text"
+        },
+        {
+        	"label": "Contraseña",
+        	"variable": "contrasena",
+        	"tipo": "text"
+        },
+        {
+            "label": "Confirmar Contraseña", 
+            "variable": "contrasena_confirmation", 
+            "tipo": "text"
+        },
+        {
+            "label": "Nombre", 
+            "variable": "nombre", 
+            "tipo": "text"
+        },
+        {
+            "label": "Apellido", 
+            "variable": "apellido", 
+            "tipo": "text"
+        },
+        {
+            "label": "Tipo de Documento", 
+            "variable": "documento_tipos_id", 
+            "tipo": "select"
+        },
+        {
+            "label": "Documento", 
+            "variable": "documento", 
+            "tipo": "text"
+        },
+        {
+            "label": "Fecha de Nacimiento", 
+            "variable": "fecha_nacimiento", 
+            "tipo": "text"
+        },
+        {
+            "label": "Dirección", 
+            "variable": "direccion", 
+            "tipo": "text"
+        },
+        {
+            "label": "País", 
+            "variable": "pais", 
+            "tipo": "select"
+        },
+        {
+            "label": "Provincia", 
+            "variable": "provincia", 
+            "tipo": "select"
+        },
+        {
+            "label": "Municipio", 
+            "variable": "municipio", 
+            "tipo": "select"
+        },
+        {
+            "label": "Nacionalidad", 
+            "variable": "nombre", 
+            "tipo": "select"
+        },
+        {
+            "label": "Teléfono", 
+            "variable": "telefono", 
+            "tipo": "text"
+        },
+        {
+            "label": "Celular", 
+            "variable": "telefono_celular", 
+            "tipo": "text"
+        },
+        {
+            "label": "Teléfono Oficina", 
+            "variable": "telefono_oficina", 
+            "tipo": "text"
+        },
+        {
+            "label": "Fecha de Ingreso", 
+            "variable": "fecha_ingreso", 
+            "tipo": "text"
+        },
+        {
+            "label": "Sexo", 
+            "variable": "sexo", 
+            "tipo": "select"
+        },
+        {
+            "label": "Especialidad", 
+            "variable": "profesionales_especialidades_id", 
+            "tipo": "select"
         }
     ],
-    "tipo": "editar" 
+    "tipo": "crear" 
 }
