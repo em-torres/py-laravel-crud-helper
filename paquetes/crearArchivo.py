@@ -1,5 +1,4 @@
-
 def crear(nombreArchivo, contenido):
-    fileManager = open(nombreArchivo,'wb')
-    fileManager.write(contenido)
-    fileManager.close()
+	fileManager = open(nombreArchivo, 'wb')
+	fileManager.write(contenido.encode("ascii"))
+	fileManager.close()
