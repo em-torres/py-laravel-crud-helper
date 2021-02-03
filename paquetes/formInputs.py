@@ -5,7 +5,7 @@ def crearInputTextarea(label, variable, tipo):
 
     return """
 <div class="form-group col-sm-4">
-    <label>
+    <label for="{1}">
         <b>
             {0}
             <span class="text-danger">*</span>
@@ -27,7 +27,7 @@ def crearInputSelect(label, variable, tipo):
 
      return """
 <div class="form-group col-sm-4">
-    <label>
+    <label for="{1}">
         <b>
             {0}
             <span class="text-danger">*</span>
@@ -55,7 +55,7 @@ def crearInputSimple(label, variable, tipo):
 
     return """
 <div class="form-group col-sm-4">
-    <label>
+    <label for="{1}">
         <b>
             {0}
             <span class="text-danger">*</span>
